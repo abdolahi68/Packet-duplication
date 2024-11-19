@@ -2,6 +2,7 @@ This code the code to create duplicate packets for UDP and ICMP packets on linux
 
 To install:
 1.Download ubuntu 22.04 with Kernel 5.15.0. 
+
 sudo apt install linux-image-5.15.0-50-generic
 
 2. Put the files in /net/ipv4/ directoy
