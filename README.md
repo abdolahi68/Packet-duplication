@@ -1,9 +1,10 @@
 This code the code to create duplicate packets for UDP and ICMP packets on linux kernel.
 
 To install:
+
 1.Download ubuntu 22.04 with Kernel 5.15.0. 
 
-- sudo apt install linux-image-5.15.0-50-generic
+   - sudo apt install linux-image-5.15.0-50-generic
 
 2. Put the files in /net/ipv4/ directoy
 3. The packet will send over the defualt interface. So, it is essenatil to set the name and IP address in the following functions:
